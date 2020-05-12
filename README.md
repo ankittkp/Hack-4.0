@@ -15,4 +15,15 @@ These intructions will get you a copy of the project up and running on your loca
 - For Windows, the path should look something like this C:\Users\SomeUser\Downloads\google-chrome-stable_current_amd64
 - For Linux, the path should look something like this /home/user-name/Downloads/google-chrome-stable_current_amd64.deb
 - For Mac, the path should look something like this /Users/user-name/Downloads/google-chrome-stable_current_amd64
-
+### Setting up WhatsApp Web
+- Once you run the python file, Google Chrome should pop up opening WhatsApp Web.
+- Login after the scanning the QR Code.
+- If the program ends with the error, you need to extend the time of time.sleep() function to something greater value depending on your network speed.
+- Once Login is successfull you will never need to Login again, even if you close the browser window as long as you do not log out.
+### Using The API
+- Once the above procedures are done, use the correct function calls to do different tasks.
+- You can use a combination of different functions to generate different results.
+# Built With
+- [Python](https://www.python.org)
+- [Selenium](https://www.selenium.dev/) - Selenium is an umbrella project for a range of tools and libraries that enable and support the automation of web browsers.
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Beautiful Soup is a Python library for pulling data out of HTML and XML files.
